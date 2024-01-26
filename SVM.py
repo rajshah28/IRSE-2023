@@ -73,7 +73,7 @@ from csv import writer
 from csv import reader
 
 # Open the input_file in read mode and output_file in write mode
-with open('IRSE_FIRE_2022_Track_Training_Data_preprocessed.csv', 'r') as read_obj, open('Exp1_Secondary_Results_AritraMitra.csv', 'w', newline='') as write_obj:
+with open('IRSE_FIRE_2022_Track_Training_Data_preprocessed.csv', 'r') as read_obj, open('Exp1_Secondary_Results_RajShah.csv', 'w', newline='') as write_obj:
     # Create a csv.reader object from the input file object
     csv_reader = reader(read_obj)
     # Create a csv.writer object from the output file object
@@ -89,7 +89,7 @@ with open('IRSE_FIRE_2022_Track_Training_Data_preprocessed.csv', 'r') as read_ob
         # Add the updated row / list to the output file
         csv_writer.writerow(row)
         i+=1
-with open('IRSE_FIRE_2022_Track_Training_Data_preprocessed.csv', 'r') as read_obj, open('Exp2_Secondary_Results_AritraMitra.csv', 'w', newline='') as write_obj:
+with open('IRSE_FIRE_2022_Track_Training_Data_preprocessed.csv', 'r') as read_obj, open('Exp2_Secondary_Results_RajShah.csv', 'w', newline='') as write_obj:
     # Create a csv.reader object from the input file object
     csv_reader = reader(read_obj)
     # Create a csv.writer object from the output file object
